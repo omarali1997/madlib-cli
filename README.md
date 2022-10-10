@@ -29,3 +29,6 @@ i.e.
 - How do you run tests?
 - Any tests of note?
 - Describe any tests that you did not complete, skipped, etc
+
+# pull requests Link
+[pull requests](https://github.com/omarali1997/madlib-cli/pull/1)
