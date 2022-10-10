@@ -1,34 +1,25 @@
-# LAB - Class xx
+# LAB - Class 04
 
-## Project: Project Name Here
+## Project: File IO and Exceptions
 
-### Author: Student/Group Name
 
 ### Links and Resources
 
-- Link01
-- Link02
+- [gitignore](www.gitignore.io)
 
 ### Setup
 
-#### `.env` requirements (where applicable)
+#### `.venv` , `.gitignore` , `pytest` requirements 
 
-i.e.
-
-- `PORT` - Port Number
-- `DATABASE_URL` - URL to the running Postgres instance/db
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `python main.py`
+- e.g. `pytest` , `python madlib_cli/madlib.py`
 
-#### How to use your library (where applicable)
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+I've been testing my project and everything is working fine
 
-# pull requests Link
+> # pull requests Link
 [pull requests](https://github.com/omarali1997/madlib-cli/pull/1)
