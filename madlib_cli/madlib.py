@@ -1,8 +1,6 @@
 
 import re
 
-
-
 def read_template(path):
     try:
         with open(path) as f :
@@ -10,22 +8,15 @@ def read_template(path):
     except:
         raise FileNotFoundError
 
-
 def parse_template(s):
     w=re.findall("{(.*?)}",s)
     x=re.sub("{.+?}","{}",s)        
     return x,(tuple)(w)
 
-
-    
-
-
-
 def merge(s,t):
     
     return s.format(*t)
 
-    
 def video_game(story):
     print("**welcome to madlibs game**\n**you have to enter some word**")
     d=[]
@@ -43,10 +34,6 @@ def video_game(story):
     with open("assets/respons.txt") as response:
         f=response.read()
     print(f)
-
-
-
-
 
 if __name__=="__main__":
     video_game("assets/story.txt")
